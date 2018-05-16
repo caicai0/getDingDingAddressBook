@@ -131,29 +131,8 @@ public class AllPages {
             }catch (Exception e){
                 e.printStackTrace();
             }
-
             AllUser = AllUser + userInfo + "\n";
             System.out.println(AllUser);
-//            MobileElement list = (MobileElement) driver.findElementById("com.alibaba.android.rimet:id/user_info_fragment_container");
-//            MobileElement nameEl = (MobileElement) list.findElementByXPath("//android.view.View[1]/android.widget.LinearLayout/android.widget.TextView");
-//            MobileElement phoneEl = (MobileElement) list.findElementByXPath("//android.widget.LinearLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[2]");
-//            MobileElement emailEl = (MobileElement) list.findElementByXPath("//android.widget.LinearLayout[2]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.TextView[2]");
-//            MobileElement departmentEl = (MobileElement) list.findElementByXPath("//android.view.View[2]/android.widget.TextView[2]");
-//            MobileElement positionEl = (MobileElement) list.findElementByXPath("//android.view.View[3]/android.widget.TextView[2]");
-//
-//            String name = nameEl.getText();
-//            String phone = phoneEl.getText();
-//            String email = emailEl.getText();
-//            String department = departmentEl.getText();
-//            String position = positionEl.getText();
-//
-//            String oneLine = name+","+phone+","+email+","+department+","+position+"\n";
-//
-//            System.out.println(name+","+phone+","+email+","+department+","+position);
-//
-//            AllUser = AllUser + oneLine;
-//
-//            System.out.println(AllUser);
         }catch (Exception e){
             e.printStackTrace();
         }
